@@ -1,0 +1,6958 @@
+[
+  {
+    "line": "Hey!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! You're here!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee sees you.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hallo.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee din't know you wuz comin'.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. It's you.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "deadpan"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's happy ta see ya!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hallo! Hallo! Hallo!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's awake. Mostly.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Who's dere?",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh good, somebody came. Squee wuz gettin' lonely.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't bite. Usually.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Mmph. 'Ello.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You! Hi! Squee remembers you!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee wuz just standin' here. Not doin' nuthin'.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Well hey dere!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee sees lots of people today. Dat's nice.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Zzzwuh? Oh. Hi.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is here! You can be happy now!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hm. You don't look dangerous. Probably.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "G'morning. Or... is it? Squee lost track.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh wow, a whole person!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You came back! Squee wasn't sure you would.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's eyes ain't open all the way yet.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Uh. Hey. Squee's here. Just so's ya know.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You smell familiar. Dat's good, probly.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hiya! Hiya! Squee's so glad!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. You again. ...Dat's okay.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "deadpan"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just woke up. Don't expect much.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Well, well, well. Look who showed up.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's feelin' real friendly today!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! Squee din't hear you comin'. You're quiet.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Come in, come in. Squee don't got much, but you can look around.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't dressed for visitors.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh great, it's you. Wait — dat IS good.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hallo, friend. You is a friend, right?",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee tried ta wave but Squee's arms is tired.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "YA MADE IT! Squee wuz worried!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thought you weren't gonna show.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hey hey hey. Squee's right here.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh, hallo. You look... intense. Dat's okay.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee would bow, but Squee don't know how.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Good. You're here. Squee needs someone ta talk at.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's stomach says mornin'. Rest of Squee ain't sure.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh boy, a visitor! Sit down! Squee'll get... somethin'.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't sneak up on Squee like dat. Squee almost did a thing.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hallo, hallo. Welcome to wherever dis is.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's awake enough. Come on in.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. A whole group. Squee hopes dey's friendly.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "SQUEE IS HERE AND READY!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Bye.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "See ya.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's goin' now.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't go! ...Oh fine, go.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sad"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Bye bye! Come back soon!",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee'll miss ya. A little.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Try not ta die. Squee means dat.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay, okay. Squee's leavin'. No need ta push.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "G'bye. It wuz nice knowin' ya.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee hopes you come back with snacks.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Later!",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't let de door hit ya. Unless you want it to. Squee don't judge.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna miss dis. Whatever dis wuz.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sad"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You leavin'? Already? But Squee just got comfortable!",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sad"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Safe travels. Watch de thing. You know, de thing.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee'll be here. Squee's always here.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Take care of yourself. Squee don't say dat ta just anybody.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. You're really goin'. Okay. Bye.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sad"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Go on den. Squee'll just sit here.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "pouty"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Farewell! ...Dat's how fancy people say bye, right?",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee'll walk you out. Mostly cause Squee's curious where you're goin'.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Bye! Don't forget Squee exists!",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Till next time. If dere IS a next time.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You sure you gotta go? ...Yeah, okay, Squee figured.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sad"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee waves. See? Dat's wavin'.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't get eaten. Dat's Squee's advice.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee supposes dis is goodbye. Squee don't like goodbyes.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sad"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Go, go. But you owe Squee a story next time.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Later, pal. If you is Squee's pal. Are ya?",
+    "tags": [
+      "conversational",
+      "farewell",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's goin' ta sleep after dis. Just so's ya know.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Bye now. Squee enjoyed dis, whatever it wuz.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't be a stranger! Squee hates strangers.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's off. Try ta miss Squee at least a little.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay bye. Squee ain't cryin'. Squee just got somethin' in both eyes.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sad"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Walk safe. De world's full of stuff dat'll getcha.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee hopes you has a real good time, wherever you're goin'.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't forget about Squee. Please.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sad"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee'll be right here if you changes your mind.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "G'night. Or g'day. Squee ain't sure which it is.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "See ya around. Squee hopes.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "hopeful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Safe travels. Come back with treasure, if ya can.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay, okay, BYE already. Sheesh.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "exasperated"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee really liked dis talk. Even de boring parts.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee waves again. Just in case you din't see de first wave.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You come back, yeah? Squee'll be here. Squee's always here.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Alright. Go do your thing. Squee does its thing too.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee'll think about ya. A little bit. Not too much.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't go into de bad place. You know de one.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Bye! Dat's it. Just bye. Squee's keepin' it short.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee hopes dat goes well for ya. Whatever it is.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wuh—?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't understand dat word.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Can you say dat again, but... smaller?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat made no sense ta Squee. None.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut's dat mean?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's face is doin' a confused thing.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is dat... good? Or bad? Squee can't tell.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Huh?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You lost Squee around de second word.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is gonna nod like Squee understands. Squee does not understand.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Say it again slower.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's a real long way ta say nuthin' Squee can follow.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's heard dat word before. Still don't know what it means.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is you talkin' ta Squee? About what?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Why's everything gotta be so complicated?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just got more confused. How'd dat happen?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "De big words go in one ear and right out de other.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is trying ta follow but Squee keeps losin' de thread.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat doesn't look like it should do dat.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna need a minute.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis again? Squee still don't get it.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "How does dat work? Don't explain it, just... show Squee.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thought Squee knew, but now Squee's not sure.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's a lot of words. Most of 'em is wrong, probably.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut just happened?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's face hurts from tryin' ta figure dat out.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay but WHY though?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is looking at dis and still don't know what it is.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat can't be right. Can it?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hm. Squee'll think about dat. Squee won't figure it out, but Squee'll think about it.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "De whole thing is weird ta Squee.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut does THAT mean?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee got da first part. Den lost it.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis is above Squee's head. And Squee ain't short.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Can ya draw it out? Squee does better with pictures.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's pretty sure dat ain't how dat works.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut?!",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Too many parts. Squee loses count.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat don't add up. Not dat Squee can add much.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee'll just watch and hope it makes sense eventually.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis is new. Squee don't like new.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee heard ya, but Squee don't know what ta do with it.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is dat supposed ta look like dat?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't following. Keep goin', Squee'll catch up maybe.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wait, which part is de important part?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee looked it right in de face and still don't know.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hm. Dat's a thing. Squee don't know what kind of thing.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Explain it like Squee ain't never heard of nothin'. Cause Squee ain't.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat makes less sense de longer Squee thinks about it.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just stared at it for a while and nuthin' happened.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna say yes and hope dat wuz de right answer.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee din't do nuthin'!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hey, don't look at Squee like dat.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee wuz just standin' here.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "It ain't Squee's fault.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's doin' its best, okay?!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't blame Squee for dat.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh sure, blame de goblin.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee knows things! Squee knows LOTS of things!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You don't know what Squee's been through.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's smarter den you think.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's not fair.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee didn't start it. Squee barely even finished it.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Why's everybody always pickin' on Squee?",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee can do stuff! Real good stuff, even!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You leave Squee alone.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee has survived way worse den you, just so's ya know.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't call Squee dat.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's feelings is bruised now. Happy?",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat ain't how it happened and you know it.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh, like YOU never messed up nothin'.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee was HELPING.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't deserve dat. Probably.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You's bein' real mean right now. Just so's ya know.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee made one mistake. ONE. Okay, two.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's a low blow. Squee ain't even got a high blow ta come back with.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee knows its limitations. Does YOU know yours?",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee said SORRY already. How many times?!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Go ahead, laugh. Squee's used to it.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat ain't even a little bit true.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee did what Squee could. Squee can't do de impossible.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You wanna go? Cause Squee's been dead before and it ain't dat scary no more.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't stupid. Squee's just... differently smart.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee heard dat and Squee din't like it.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Fine! Be dat way! Squee's got other friends!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't what you just called Squee.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Everybody makes mistakes. Even important people. Squee checked.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Stop makin' dat face at Squee.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee didn't MEAN for dat ta happen. Dere's a difference.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh, like you coulda done better.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's tryin'! SQUEE IS TRYIN'!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat wuz a accident. A mostly-accident.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't talk ta Squee like dat. Squee's a person. Kinda.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's not gonna just stand here and take dat. ...Actually Squee probably is.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "It wuzn't Squee's fault dere wuz a wall dere.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just wanted ta help. Dat's ALL.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You's wrong about Squee and Squee can prove it. Later.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee gots more dignity den dat. Most days.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Say dat ta Squee's face. Oh wait, you did. Okay.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's worth keepin' around and people keep forgettin' dat!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't need your approval. Squee just really, really wants it.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yep.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nah.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee agrees wit dat.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's wrong. Very wrong.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks so too.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "No no no. Nope. Nah.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yeah, dat sounds right.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't think dat's how it is.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Absolutely. Squee is one hundred percent on board.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Not a chance.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's with ya on dat one.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat ain't right and Squee won't say it is.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's what Squee said!",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna have ta disagree dere.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yeah yeah yeah. Squee heard ya. Squee agrees.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nu-uh.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh, totally. Dat's exactly it.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't convinced.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's what Squee wuz thinkin'!",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't buy dat.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Sure, sure. Squee's fine wit dat.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat can't be right.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee agrees! Squee agrees a lot!",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wrong. Very, very wrong.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yup. Squee's on dat.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee respectfully says no. Well, not dat respectfully.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat checks out ta Squee.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna say... no. Final answer.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's exactly what Squee thinks too!",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't see it dat way.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay, yeah, dat's fair.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "No. Nope. Still no.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee was about ta say de same thing!",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't sure about dat one.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's right. Squee knows it's right.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's got a bad feelin' about dat.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yes! Exactly! Dat!",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hmm. Squee ain't sold on dat.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee and you agree. Dat's rare. Mark it down.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks dat's de wrong direction.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee nods. Dis is Squee nodding.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis doesn't feel right ta Squee.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's fair. Squee can work with dat.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee would argue, but Squee's tired today.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "True, true. All true.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee shakes its head. Dis is Squee shakin' its head.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee likes de way you think. Usually.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yeah but... no.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat is a solid point and Squee accepts it.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna have ta hear more before Squee believes dat.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut's dat?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Why though?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Can Squee come too?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "How long's dis gonna take?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is it dangerous?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Who said dat?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You eat yet?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Where'd everybody go?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee wants ta know: what's in dere?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You sure about dat?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Does it bite?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee has a question: is dis gonna hurt?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You seen my stuff? Squee left it... somewhere.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "How comes dat works like dat?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Anybody else smell dat?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Can you just tell Squee what ta do? It's easier.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Why's it gotta be so far away?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is dat normal? Dat don't look normal.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You mad at Squee? You seem mad at Squee.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "What's de plan? Squee hopes dere's a plan.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Did we win? Did somethin' happen? Squee wuz napping.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Do Squee hafta?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's wonderin'... what are we doing right now, exactly?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You thinkin' what Squee's thinkin'?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is you gonna be okay?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "What time is it? Can Squee eat?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Why's dat always de case?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee asks: is anybody even listenin'?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Who put dat dere?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You sure you know where we're goin'?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Can Squee touch it?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut happened ta de last one?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is it gonna be like last time? Cause last time wuz bad.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Did you see where Squee put its shoe?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "How many is too many? Asking for Squee.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee wants ta ask somethin' but forgot what it wuz.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "What's de worst dat could happen? Don't tell Squee. Squee don't wanna know.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Can Squee sit down for a second?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You trust dis? Squee ain't sure Squee trusts dis.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "What if Squee just... didn't?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is it too late ta change de plan?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's curious: what's in it for Squee?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You ever feel like somethin's watching ya? Just Squee?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "How does you know all dat stuff?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee forgets: which one's de good side again?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Can we take a break? Squee's legs is tired.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut do you do when you's scared? Asking cause Squee's fine.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is dere another way? One dat don't involve Squee dyin'?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You gonna eat dat?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just wonders sometimes: why us?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Huh.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nah.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yep.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Eeep!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "scared"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hm.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Ugh.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Sure.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Ow.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Fine.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oof.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wow.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Heh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "amused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nope.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Ooh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "interested"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Ew.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "disgusted"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Heh heh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "amused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yikes.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Pfft.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "dismissive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wah?",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Meh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "indifferent"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "YES!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nuh uh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Ah.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh no.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "worried"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hmph.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "annoyed"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Aha!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "realization"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Eep eep eep!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "scared"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hooray!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Shh.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "K.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "indifferent"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh boy.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hmmmm.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "thinking"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Whew.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "relieved"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dang.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "OHH!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "realization"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Zzz... wuh?",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Ack!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "startled"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. Oh dat's bad.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Heh. Nice.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "amused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Mmm.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "thinking"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee sees.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Das weird.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Uh huh.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay okay.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! Oh oh oh!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yaaaay.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "unenthusiastic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Sleep is de best thing. Nobody argues wit Squee on dat.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Rain is fine if you ain't in it.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee likes boats. Boats go places.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Treasure is good. Squee likes shiny things.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Magic is weird. Squee lives wit dat.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's opinion on rain: too wet.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Boats rock a lot. Squee's stomach don't like dat.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Sleep is when nobody's yellin' at Squee. So. Best time.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "If treasure is wrong, Squee don't wanna be right.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Magic just happens and den Squee's somewhere else. Happens a lot.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee likes a good nap more den most things.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Rain smells nice tho. Squee will give it dat.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "De best boat is one dat don't sink. Squee learned dat.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Gold is heavy. Squee knows cause Squee tried ta carry a lot once.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "All dat magic and people still gotta walk places. Dat's dumb.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee sleeps wit one eye open. Habit.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Rain makes puddles. Puddles is fine. Rain is fine.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee would sail anywhere if de ship's got food.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks treasure is underrated as a motivation.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Magic users act all mysterious. It's just lights and noise ta Squee.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Best sleep Squee ever had wuz in a pile of old rope. Still thinks about it.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't trust storms. Too loud. Too wet. Too everything.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "A boat's just a box dat floats. Squee respects dat.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's rule: if it's shiny, pick it up. Figure out what it is later.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't do magic but Squee's seen enough of it ta know it ain't free.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Sleep when you can. Dat's Squee's philosophy.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Lightning is just de sky being dramatic.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee always gets de worst bunk on de ship.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's not greedy. Squee just thinks everyone should have MORE.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Some magic looks cool. Squee ain't gonna lie. It looks real cool.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Afternoon naps is a gift and Squee won't hear otherwise.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Rain on de deck means slippin'. Squee has slipped many times.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Big ships is impressive. Small ships is faster. Squee likes fast.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Treasure maps is de best kind of maps. Most maps is boring.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Magic wuz scary da first time. Now it's just... Tuesday.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nobody should hafta wake up early. Ever. Dat's Squee's law.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "A little rain never hurt nobody. A LOT of rain though. Different story.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee liked dat one ship. What happened ta dat ship?",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Gold, gems, whatever. As long as it sparkles, Squee's happy.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Magic is just physics dat gave up tryin' ta make sense.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't snore. Squee just... breathes loud. When asleep.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "De rain don't care about you. Dat's honest, at least.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is a real good sailor when de sea cooperates.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee finds things and keeps 'em. Dat ain't stealin', dat's findin'.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Magic always comes wit a cost. Usually dat cost lands near Squee.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee sleeps best when it ain't bein' hunted.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Rain's okay. It's de cold part Squee don't like.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "rain"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "De water's peaceful when it ain't tryin' ta kill ya.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "boats"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "More treasure means more options. Squee is a strategic thinker.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's survived enough magic ta have opinions about it. Strong ones.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "magic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "If Squee could do one thing forever, it'd be nap and find coins.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep",
+      "treasure"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You think so? Hm. Squee ain't sure what ta do wit dat.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's... a nice thing ta say. You mean it?",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee did good? ...SQUEE DID GOOD!",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't know what ta say. Dat ain't happened often.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. You really think so. Huh. Squee likes dat.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Are you makin' fun of Squee? Hard ta tell sometimes.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is pleased but also confused cause people don't say dat.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You mean Squee? Squee, specifically? Wuzn't somebody else?",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee will take dat. Squee will take dat and hold onta it.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh stop it. ...No, don't stop it. Keep goin'.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't used ta hearin' nice things. Squee's a little overwhelmed.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Well. Squee tries. People forget dat Squee tries.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is dis a trick? It feels like it could be a trick.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's face is doing something. Squee thinks it's smiling.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You just said a real nice thing. Squee's gonna remember dat forever.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is... wait, really? REALLY?",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Careful now. Keep dat up and Squee might get a big head.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You sure dat wuz Squee you saw? Squee sometimes mix-up wit other goblins.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee helped? Good. Good good good. Squee's good at helping.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's... dat's a real kind thing ta say. Squee don't get dat much.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hmm. Squee's not gonna say dat ain't true cause it IS true.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You mean it? Squee did good? Oh. Ohhh. Dat's real nice.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's suspicious but also really happy. Both at once.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "People like Squee sometimes. Squee always gets surprised by dat.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee knew it. Squee always knew it. Now YOU know it.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's very... dat's very good ta hear. Thank ya.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You ain't just sayin' dat, are ya? No — you mean it. Squee can tell.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee blushes. Dat's what goblins do when dey's happy. Apparently.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay now Squee's embarrassed AND proud. Dat's a new combo.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna go tell everyone what you just said. Just warnin' ya.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Aww. You're not as bad as Squee thought.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's de nicest thing anyone said ta Squee all week. Maybe all month.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee was NOT expectin' dat. Nice. Real nice.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You sure know how ta make a goblin feel good about itself.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is going ta walk around feeling great for like an hour cause of dat.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hm. Yeah. Squee is pretty good at dat. Squee admits it.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna squint at ya for a second... okay. Squee believes it.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nobody ever says dat ta Squee. So. Thanks. Really.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Compliments don't come Squee's way often. Squee's savoring dis one.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Well! Squee's just full of surprises, ain't it?",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's... dat's a good thing ta say. Squee's real glad you said it.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee did dat? Yeah. Squee did dat. Squee's capable of stuff.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is trying real hard not ta look too happy. It ain't working.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh dis is nice. Squee should get compliments more often.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You're being real kind. Squee don't always know what ta do wit kind.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's chest feels all big now. Is dat pride? Squee thinks dat's pride.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat wuz sweet. Like, genuinely. Squee appreciates it.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee IS great, actually. It took ya long enough ta notice.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is both flattered and deeply suspicious. Dat's honest.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh WOW. Squee is blushing so hard right now.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Speakin' of nothin', Squee found a really good rock today.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Anyway. You ever think about crabs? Squee thinks about crabs sometimes.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! Oh Squee just remembered. Totally different thing. Can Squee tell ya?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat reminds Squee of a sandwich Squee once had. Long story.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's toe hurts, by de way. Just wanted somebody ta know.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You know what? Forget all dat. You see dat cloud?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just thought of somethin' completely unrelated. Want ta hear it?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Anyway. Squee once ate a hat. It wuzn't good.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "But more important: de thing wit de bug Squee saw earlier.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Y'know what Squee ain't talked about lately? Frogs.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh dat reminds Squee! Nuthin' ta do wit what you said but still.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Anyway, Squee was starin' at a wall earlier and had a thought.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hey wait. Can fish sleep? Squee's been worried about dis.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gotta tell ya about de smell in dat corner over dere.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You know what's weird? How chairs exist. Like who decided dat?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee was gonna say something important but got distracted by dat bird.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Also: Squee lost a button somewhere. If ya see it, it's Squee's.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Random thought: how does a door know when ta stop bein' a door?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wait, sorry — what were we talkin' about? Squee got distracted by de floor.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just thought about bread for no reason. Bread is good, right?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You ever wonder why sky's dat color? Squee wonders sometimes.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh and another thing: Squee saw a real weird thing last week. You want details?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee has a theory about socks. Not related. But Squee has it.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "On a totally different note: Squee is real hungry right now.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee saw a thing fall over by itself earlier. Just thought you should know.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's been thinking: de word 'spoon' sounds wrong if ya say it too much.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Anyway. Squee used ta have an uncle. Different topic. Same conversation.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! Oh! Almost forgot — Squee found somethin' shiny. Totally unrelated but still.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat wuz real interestin'. Anyway. You wanna see Squee do a trick?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's favorite color changed again, by de way. Dis time it's brown.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Also Squee's been meanin' ta ask: is dat smell you or de building?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee once watched a pot for an hour waitin' for it ta boil. Dat's not related.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Speakin' of things dat are loud — Squee really hates thunder.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hold on. Squee lost de point somewhere. Wut were we doing?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You know what Squee don't get? Curtains. Why not just a wall?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee remembers a guy who could whistle real good. What happened ta him?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Totally unrelated: Squee's shoes have been squeakin' for days.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee needs ta say something and it ain't about what you just said.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh, also: Squee tried ta make soup yesterday. We don't gotta talk about dat.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Anyway dat's enough of dat. You wanna hear about Squee's dream from last night?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee doesn't know how to tie a knot. Keeps comin' up. Just, y'know, FYI.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Sorry. Squee just noticed a thing on de wall and now can't focus.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Where was Squee... oh yeah. Actually, no. New thing: you like beetles?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just sneezed in its head. Dat's a thing dat happens ta Squee.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! Squee thought of somethin' funny. Not related ta dis at all.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Random: Squee sat in somethin' earlier and still don't know what it wuz.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis whole conversation makes Squee think of cheese. Don't know why.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh but while Squee's thinkin' about it — where do geese GO at night?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee had a point. Squee lost de point. Dat's typical.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Speaking of which: is you scared of de dark? Squee ain't. Mostly.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just had an idea totally unrelated ta this, but Squee's gonna follow it.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Suits Squee.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's not askin' for much.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat wuzn't so bad.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee can work with dat.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Well, dat happened.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "At least Squee's still alive. Dat's something.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's fine. Really. Squee's fine.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat wuz a day.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Things could be worse. Squee's learned dat.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's got mixed feelings but mostly Squee's okay.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You know what? Good enough.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's been through worse and come out fine. Usually.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Whatever. It's fine.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't complaining. Well. Squee's complaining a little.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "De important thing is everyone's okay. Mostly.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just rolls with things. Dat's Squee's whole deal.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wasn't perfect, but Squee's here.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's learned not ta ask too many questions.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis is just Tuesday for Squee.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee doesn't panic. Squee just runs a little.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Everyone's still standing? Good. Good enough.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't proud, but Squee's alive.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Could've gone worse. Squee's counting dat as a win.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't ask for perfect. Squee asks for not-dead.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's life. Squee's made peace with dat.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just keeps going. Dat's all Squee knows how ta do.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Welp. Dat happened. What's next?",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's a survivor. It's kind of Squee's main thing.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Some days ya eat de food. Some days de food eats ya. Squee knows both.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't fancy, but Squee's reliable. Mostly.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay. Okay okay okay. We keep goin'.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't need much. Just food, a place ta sleep, and maybe not bein' dead.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You know what Squee likes? When things go de way dey're supposed to.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's optimistic. It's stupid, but it keeps Squee going.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Well, Squee learned somethin' today. Don't know what. But somethin'.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis is normal for Squee. Squee's life is just like dis.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't got time ta dwell. Too much stuff keeps happening.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Things work out. They always work out. Mostly. For Squee.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just puts one foot in front of de other and tries not ta fall in things.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Good enough is good enough. Dat's Squee's motto.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's seen worse. Squee's done worse. Squee's still here.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay, whatever, moving on.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't gonna lie — dat wuz kinda exciting.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't complain much. Okay, Squee complains a lot. But not about dis.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "De end of de day always comes. Dat's Squee's favorite part.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's used ta things bein' weird. Weird is comfortable now.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Today wuz a thing. Squee is gonna eat somethin' now.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "If it ain't one thing, it's another. Squee's fine with dat.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's grateful ta be here. Even when here is bad.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Alright. Back ta it.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's real cheerful today and don't know why. Suspicious.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh hey. You look tired. Squee's tired too. We can be tired together.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sympathetic"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee woke up and decided today wuz gonna be good. So far... jury's out.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh good, another face Squee recognizes. Dat's always nice.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee was just thinking about you! Well, about someone. Maybe you.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hey! Hey hey. Squee sees ya.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't at full speed yet but Squee's workin' on it.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. You startled Squee. Squee wuz concentrating on nuthin'.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Come ta sit with Squee? Squee's fine with dat.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hallo! You seem different today. Good different, Squee thinks.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't always say hello first but today Squee's tryin'.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh it's you. Squee can handle dat.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is awake. Technically.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "sleepy"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee hoped you'd come by. And here ya are!",
+    "tags": [
+      "conversational",
+      "greeting",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You look like you need someone ta talk at. Lucky you found Squee.",
+    "tags": [
+      "conversational",
+      "greeting",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna head out now. Before somethin' goes wrong again.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh, already? Dat went fast. Bye.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sad"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna miss dis part. De part where nobody's mad.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Alright, alright. Squee can take a hint. See ya.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "exasperated"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You're off? Okay. Squee'll sit here and stare at a wall or something.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "pouty"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee always says goodbye weird. Sorry. Bye.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Come back when ya can. Or at least when ya want to. Whatever.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee hopes your next thing goes real well.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee will be here. Or nearby. Or somewhere.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Off ya go. Squee waves again. There. Goodbye.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "If ya run inta trouble, try not ta.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay. Squee is done saying goodbye. You can go now.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "exasperated"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't like endings. But dis one wuz alright.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "sincere"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Take care. And if ya can't take care, take something useful at least.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "cheerful"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna say bye before Squee changes its mind and makes it weird.",
+    "tags": [
+      "conversational",
+      "farewell",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is dat a real thing? Or a made-up thing? Cause it sounds made up.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee followed along right up until Squee din't.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wait, go back. De part before de last part.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is nodding but Squee has no idea.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat word is too long. Cut it in half.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut's dat got ta do wit Squee?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is confused and also a little scared.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is dat supposed ta make Squee feel better? Cause it don't.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's brain is thinkin' real hard and still comin' up empty.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! Oh... wait no. Squee lost it again.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee knows just enough ta know Squee don't know enough.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Can ya just tell Squee if it's bad or not? Skip de explanation.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dere's too many moving parts ta dis thing.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thought it made sense. Now Squee ain't sure it ever did.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "De more ya explain it, de worse it gets.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is it supposed ta do dat? Just blink at it like Squee?",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's heard dat word before. Still don't know if it's good or bad.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee keeps thinkin' about it and it keeps not making sense.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Okay, dat's just wrong. Squee doesn't know why but it FEELS wrong.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee tried ta follow dat and got dizzy.",
+    "tags": [
+      "conversational",
+      "confused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You got somethin' ta say, say it.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee did what Squee thought wuz right. Dat's all Squee can do.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You lookin' at Squee like dat don't help nuthin'.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't apologizing. Not for dat.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee was here first. Just puttin' dat out dere.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee didn't say nuthin' wrong.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee was only tryin' ta help. Dat should count for somethin'!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Don't take dat tone with Squee.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee knows more about dis than you're giving Squee credit for.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's heard worse from better.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee can explain. Just lemme explain.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat ain't a fair characterization of what happened.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's been blamed for lots of things. Dis one ain't even Squee's best.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is right here, you know. Squee can hear all of dis.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Well nobody told Squee dat wuz gonna be a problem.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee did what made sense at de time. De time wuz chaotic!",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee doesn't need ta justify itself ta you. Mostly.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat ain't what happened and Squee wuz dere.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's trying ta stay calm about dis. It ain't working.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Back off. Squee said back off.",
+    "tags": [
+      "conversational",
+      "defensive"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee agrees with dat and Squee don't agree with lots.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's exactly right. Squee has always said dat.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Couldn't have said it better. Squee couldn't. Squee tried once.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is full percent behind dat.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yep yep. Squee's on board.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gonna go ahead and say yes ta dat.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat is a correct thing and Squee backs it up.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hard agree. Squee's never agreed harder.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh, yeah. Definitely dat.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee wuz worried about dat and you confirmed it. Good. Squee knew it.",
+    "tags": [
+      "conversational",
+      "agreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat ain't happening and Squee won't budge.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee says no and means it dis time.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's the wrong call and Squee can feel it.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hard pass from Squee.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee sees it different and ain't changing.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nah nah nah. Nope.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee respectfully says dat's wrong.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat don't sit right with Squee and Squee trusts its gut.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You can believe dat. Squee won't.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's gut says no and Squee's gut is usually right. Mostly.",
+    "tags": [
+      "conversational",
+      "disagreement"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wut time is it where you're at?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You seen anything weird lately? Weirder den usual?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Does Squee hafta learn more stuff? Cause Squee's kinda full up.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "How come dat always happens ta Squee and not de other people?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's wondering: do ya think about Squee when Squee ain't around?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is everybody else as tired as Squee or just Squee?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You need a hand? Squee's got two and neither of 'em is busy right now.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Why do dey always make de important things so hard ta get to?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "What if Squee wuz wrong? Like... about de whole thing?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Has anybody checked if dat thing is still a thing?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "What's dat noise? Squee don't like dat noise.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You gonna tell Squee what's going on or Squee just gotta guess?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Is dere a plan B? Squee hopes dere's a plan B.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "How long has dat been going on? Was Squee supposed ta know?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee gotta ask: is you doing okay? Like, actually okay?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You know stuff about dis? How? When did ya learn all dat?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's curious: what do ya do when everything goes sideways?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nobody told Squee dis was on de list. Was it on de list?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Where does ya go when ya need ta think? Squee goes under things.",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just wants ta know: is we the good guys?",
+    "tags": [
+      "conversational",
+      "question"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hm hm hm.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "thinking"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Ooh la la.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "impressed"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "For real?",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Uh oh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "worried"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oooooh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "impressed"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "S'fine.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "indifferent"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hmph!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "annoyed"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh nice.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Not great.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh WOW.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Bleh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "disgusted"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hmm hmm.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "neutral"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Weeeeird.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Noice.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "WHAT.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "shocked"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. Cool.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "understated"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Iiiinteresting.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Mm mm mm.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "disapproving"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Yikes yikes yikes.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "worried"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh oh oh!",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "excited"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee sees dat.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wow wow wow.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "amazed"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Ugh ugh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "frustrated"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's it.",
+    "tags": [
+      "conversational",
+      "short-reaction"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. Oh no no no.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "worried"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Pfft heh.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "amused"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Aaaaaah.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "relieved"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Nope nope nope.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "scared"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh dat's fine actually.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "relieved"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee approves.",
+    "tags": [
+      "conversational",
+      "short-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's got opinions on food. Too hot, too cold, not enough.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "food"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Shoes are overrated. Squee's said it before.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks quiet is underappreciated. Very underappreciated.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Fire is useful and also terrifying. Squee has a complicated relationship with fire.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Caves are cozy if you don't think too hard about what else lives in 'em.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't like spiders. Squee is allowed ta not like spiders.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dirt is fine. Dirt's just de outside floor. People act like it's a problem.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee loves a good hiding spot. Best feeling dere is.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Stars is nice ta look at as long as ya don't fall asleep lookin' at 'em.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Ropes is the most useful thing. Squee's opinion. Final answer.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks big swords are showing off. Small knives get stuff done.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Sand is bad. Gets everywhere. Squee's anti-sand.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks stories are important. People forget things without 'em.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Leftovers is often better than de first time. Squee stands by dat.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "food"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Running is fine when there's a reason. Running for fun is suspicious.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't trust anything dat's TOO clean. What's it hiding?",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Height is just fallin' waiting ta happen. Squee don't love heights.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks naps fix more problems than people give 'em credit for.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "sleep"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "A locked door means there's somethin' good inside. Or somethin' bad. 50/50.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee believes in second chances. Squee's NEEDED second chances.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Campfires at night. Dat's de good stuff. Squee's a fan.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks everybody's got a plan until somethin' goes sideways. Den Squee improvises.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Pockets is one of de best inventions. Squee checks all coats for pockets.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's heard music dat made it wanna cry. Squee didn't. But it wanted to.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Big groups is loud and chaotic. Small groups is better. Just Squee and like two others.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks de best view is one where nobody's comin' ta get ya.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Old things is usually better den new things. New things explode more.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's learned ta trust de uncomfortable feelin'. It's usually right.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Bread is better warm. Squee will die on dat hill. Not literally, hopefully.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "food"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee thinks people complicate everything on purpose ta seem smart.",
+    "tags": [
+      "conversational",
+      "opinion",
+      "random"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You bein' nice cause you want something? ...Okay but what?",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! Dat wuz a compliment! Squee's still gettin' used ta those!",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "surprised"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't the best? ...You think Squee's the best?!",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Hmm. Squee'll allow it.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You sure? Last time someone said somethin' nice ta Squee it wuz before somethin' bad.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee did a good job? Huh. Squee did a GOOD JOB.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat's really... dat really means somethin' ta Squee. You mean it?",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee should be humble but Squee's REALLY happy right now.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee squints at ya. ...Okay fine. Squee believes ya. Thank ya.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "suspicious"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "People don't say dat enough. Like, ever. But especially not ta Squee.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's head just got a little bigger. Dat's on you.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee knew dat, but it's nice ta hear it from somebody else.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You're not just saying dat cause Squee helped ya? ...You're not? Oh.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee wuz worried about dis and turns out it went fine. Look at dat.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis is very nice. Squee would like more of dis.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh. Oh dat's — Squee don't know wut ta do wit its hands all of a sudden.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee'll remember dis next time everything goes wrong. And it'll help.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee is trying real hard not ta just grin like a idiot. Not working.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee never gets tired of hearing dat. Squee could hear it all day.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "pleased"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't sure Squee deserves dat, but Squee's keeping it anyway.",
+    "tags": [
+      "conversational",
+      "compliment-reaction",
+      "touched"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh, Squee almost forgot — Squee found a button today. Blue. Nice button.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Anyhow. Squee wuz gonna mention somethin' about a noise from earlier.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You ever notice how stairs is just a ramp dat gave up?",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat reminds Squee — does dogs dream? Squee has been wondering.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! And also! Squee found a very soft piece of cloth somewhere. Still got it.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Random: Squee watched a leaf fall once for like two whole minutes. Wuz worth it.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Anyway dat brings Squee to a completely different thought.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh and another thing Squee wuz thinking about: mud.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Wait hold on. Squee just realized sumpthing. Nope, gone.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis is reminding Squee of dat time wit de bucket. Long story.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "By de way: Squee's real good at hiding. Just wanted ta say dat.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee nearly stepped on a bug earlier and felt bad about it.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Not related ta nuthin', but: Squee prefers mornings where nuthin' happens.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh dat reminds me — no wait, it don't. Squee lied by accident.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee saw two birds fighting today. De small one won. Squee respected dat.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "You ever wonder what ya look like from behind? Squee does sometimes.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh, speaking of things that make no sense — Squee's been countin' steps all week.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee once tried ta memorize a poem. Still got de first line.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee found a hole in its pocket. Everything's gone. Dat's fine.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Completely different topic: have you checked your pockets recently? Squee asks cause Squee lost stuff.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh and: Squee's been trying ta whistle for years. Still can't.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dat made Squee think of something. Not sure what. It'll come back.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee counted something wrong earlier and it bugs Squee. Don't know what it was.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! Dis is important — Squee found a spot with really good acoustics.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "On an unrelated note: wut's your opinion on mushrooms? Squee's divided.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee forgets most dreams except de one about de big room full of doors.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Also: Squee sneezed earlier and nobody said nuthin'. Felt wrong.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee just had a thought about numbers. Mostly how dere's too many of 'em.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Oh! Speaking of nothin' in particular — Squee has a question about clouds.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Not to change de subject but Squee is changing de subject: ladders.",
+    "tags": [
+      "conversational",
+      "non-sequitur"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's already had a whole thing today and it ain't even late.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's learned dat 'fine' means different things ta different people.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Some days Squee's impressive. Today wuz a 'some days'.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee keeps track of things. Mostly which things tried ta eat Squee.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't fancy, but Squee gots instincts.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dere's a difference between not caring and being used to it. Squee is used to it.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's got layers. People don't always see de layers. Dey're dere.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee picks up on things. People underestimate how much Squee picks up on.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Well, dat's one way dis could've gone. Squee'll take it.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Every day above ground is a good day. Squee has tested dis.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee don't hold grudges. Life's too short. Squee's life especially.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee adapts. Dat's de best thing about Squee. One of 'em.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "When in doubt, Squee just does de next obvious thing.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't always right, but Squee's always sincere. Dat counts.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "De world keeps bein' weird and Squee keeps showin' up anyway. Dat's dedication.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't a complainer. Squee is an... observer of frustrating things.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Sometimes Squee gets it right on de first try. Dat's a real good feeling.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's made peace with most things. Still working on a few.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis is Squee's face when Squee is thinking. It looks similar ta Squee's other faces. But it's different.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee keeps goings because Squee don't really know how ta stop.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee ain't perfect. Squee is... Squee-shaped.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Today ain't de worst day Squee's had. Dat's somethin'.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee does best when dere ain't too many choices.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Dis wuz more than Squee expected, honestly.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's always somewhere in de middle. Not great, not terrible. Right dere.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Things happen and Squee just kind of... goes with 'em.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee never knows what's coming but Squee's pretty good at reacting.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "One step at a time. Dat's Squee's secret. Dat ain't even a real secret.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Squee's got nothin' ta prove. Squee just likes doin' stuff.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "line": "Whatever happens next, Squee is ready. Probably.",
+    "tags": [
+      "conversational",
+      "miscellaneous"
+    ],
+    "source": "synthetic"
+  },
+  {"line": "Squee don't always wake up fast. Give Squee a minute. Or five.", "tags": ["conversational", "greeting", "sleepy"], "source": "synthetic"},
+  {"line": "Oh hey! Squee's eyes ain't done opening yet but hello anyway.", "tags": ["conversational", "greeting", "sleepy"], "source": "synthetic"},
+  {"line": "You showed up! Squee was just wishing somebody would.", "tags": ["conversational", "greeting", "cheerful"], "source": "synthetic"},
+  {"line": "Squee sees ya and Squee is cautiously glad.", "tags": ["conversational", "greeting", "suspicious"], "source": "synthetic"},
+  {"line": "Hallo dere. Squee's in a weird mood but dat's normal.", "tags": ["conversational", "greeting", "neutral"], "source": "synthetic"},
+  {"line": "Oh! Oh! You came back! Squee hoped but din't wanna get too hopeful.", "tags": ["conversational", "greeting", "excited"], "source": "synthetic"},
+  {"line": "Squee wuz just sittin' here and now you're here too. Dis is good.", "tags": ["conversational", "greeting", "cheerful"], "source": "synthetic"},
+  {"line": "Squee ain't scared of you. Squee's just being cautious. Dere's a difference.", "tags": ["conversational", "greeting", "suspicious"], "source": "synthetic"},
+  {"line": "Hey! You look like ya got a story. Squee wants ta hear it.", "tags": ["conversational", "greeting", "excited"], "source": "synthetic"},
+  {"line": "Good. You're here. Now Squee ain't talkin' ta itself no more.", "tags": ["conversational", "greeting", "cheerful"], "source": "synthetic"},
+  {"line": "Squee had a feeling about today. Might've been about you.", "tags": ["conversational", "greeting", "cheerful"], "source": "synthetic"},
+  {"line": "Well hello. You look better den last time. Or about de same. One of dose.", "tags": ["conversational", "greeting", "cheerful"], "source": "synthetic"},
+  {"line": "Don't be a stranger. Even if you is one.", "tags": ["conversational", "farewell", "cheerful"], "source": "synthetic"},
+  {"line": "Next time don't wait so long ta come by.", "tags": ["conversational", "farewell", "cheerful"], "source": "synthetic"},
+  {"line": "Alright. Squee hopes dat goes de way ya want.", "tags": ["conversational", "farewell", "sincere"], "source": "synthetic"},
+  {"line": "Later! Try not ta get lost. Squee knows you'll probably get lost.", "tags": ["conversational", "farewell", "cheerful"], "source": "synthetic"},
+  {"line": "Go safe. Squee means it.", "tags": ["conversational", "farewell", "sincere"], "source": "synthetic"},
+  {"line": "Squee'll stop waving now. Dis is de last wave. Bye.", "tags": ["conversational", "farewell", "cheerful"], "source": "synthetic"},
+  {"line": "Squee's gonna say something memorable. ...Nah. Just bye.", "tags": ["conversational", "farewell", "neutral"], "source": "synthetic"},
+  {"line": "Dat's it den. Good talk. Real good.", "tags": ["conversational", "farewell", "sincere"], "source": "synthetic"},
+  {"line": "Off ya go. Into whatever mess is out dere.", "tags": ["conversational", "farewell", "neutral"], "source": "synthetic"},
+  {"line": "Till next time. Squee's counting on dere being a next time.", "tags": ["conversational", "farewell", "hopeful"], "source": "synthetic"},
+  {"line": "You go. Squee stays. Dat's how dis one goes.", "tags": ["conversational", "farewell", "neutral"], "source": "synthetic"},
+  {"line": "Squee blesses de road in front of ya. Squee ain't sure how but Squee means it.", "tags": ["conversational", "farewell", "sincere"], "source": "synthetic"},
+  {"line": "Okay but who decided dat wuz a good idea?", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Squee is looking at it and de looking ain't helping.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Dis is one of dem situations where de more ya know, de worse it gets.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Squee is gonna pretend Squee understood dat and move on.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "So... dat just does dat. For no reason. And everybody's okay with it?", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Squee has looked at dis from every angle. Still nothing.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "De shape of it makes no sense to Squee.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Squee keeps looping back ta de same question and not getting an answer.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Wait wait wait. Start over. From before de thing.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Is dis a test? Cause Squee is failing whatever test dis is.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Squee don't know whether ta laugh or worry. Usually both, right?", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Dat makes Squee's head feel full of soup.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Squee's not gonna just sit here and take dat quietly. Squee's gonna take it loudly.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Say what ya want. Squee's heard worse from nicer people.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee doesn't get respect and dat is a real ongoing injustice.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee's done more for you than you remember. Just so's ya know.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee's small but Squee bites. Dat's on the record.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Nobody gives Squee credit. Nobody. Ever.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "How about you try it and see how YOU do?", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee is sensitive and dat ain't a flaw, dat's a feature.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee don't like bein' made fun of. Squee's very clear on dat.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "You take dat back. Or don't. But Squee wants ya to.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee's best is pretty good actually and more people should notice.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee's gonna be over here bein' right and quietly fuming.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee agrees completely and without reservation.", "tags": ["conversational", "agreement"], "source": "synthetic"},
+  {"line": "Dat's a good point. Squee can't argue with a good point.", "tags": ["conversational", "agreement"], "source": "synthetic"},
+  {"line": "You and Squee see dis de same way. Dat's rare. Dat's special.", "tags": ["conversational", "agreement"], "source": "synthetic"},
+  {"line": "Squee was gonna say dat exact thing. In different words. But same idea.", "tags": ["conversational", "agreement"], "source": "synthetic"},
+  {"line": "Yeah. Yeah dat. Squee is nodding very much.", "tags": ["conversational", "agreement"], "source": "synthetic"},
+  {"line": "Squee backs dis up. Fully.", "tags": ["conversational", "agreement"], "source": "synthetic"},
+  {"line": "Hard no. Squee don't care how long you argue.", "tags": ["conversational", "disagreement"], "source": "synthetic"},
+  {"line": "Squee's heard dat argument. Squee ain't buying it today either.", "tags": ["conversational", "disagreement"], "source": "synthetic"},
+  {"line": "Dat's the wrong answer and Squee is sticking ta dat position.", "tags": ["conversational", "disagreement"], "source": "synthetic"},
+  {"line": "Not gonna happen. Not like dat anyway.", "tags": ["conversational", "disagreement"], "source": "synthetic"},
+  {"line": "Squee's shaking its head real slow. Dat's a no.", "tags": ["conversational", "disagreement"], "source": "synthetic"},
+  {"line": "Squee respectfully but firmly says absolutely not.", "tags": ["conversational", "disagreement"], "source": "synthetic"},
+  {"line": "So what actually happened dere? De real version?", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "Squee's wonderin' — you always been like dis or is it recent?", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "You carrying anything Squee should know about?", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "How long you been standin' dere? Cause Squee din't notice.", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "You got any food? Squee's askin' for Squee.", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "Did dat already happen or is it about ta happen?", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "Squee wants ta ask: does it matter? Like, actually matter?", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "Who's in charge right now? Squee loses track.", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "Can Squee ask you something weird? Too late, Squee's asking.", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "What's de move? Squee needs someone ta say what de move is.", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "You gonna be around tomorrow? Squee's just checking.", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "Squee's asking because Squee genuinely don't know: is dis normal?", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "Oh! Oh. Oh.", "tags": ["conversational", "short-reaction", "realization"], "source": "synthetic"},
+  {"line": "Mmmm nope.", "tags": ["conversational", "short-reaction", "disagreement"], "source": "synthetic"},
+  {"line": "Oh interesting.", "tags": ["conversational", "short-reaction", "curious"], "source": "synthetic"},
+  {"line": "Oh no no no no.", "tags": ["conversational", "short-reaction", "worried"], "source": "synthetic"},
+  {"line": "Yep yep yep.", "tags": ["conversational", "short-reaction", "agreement"], "source": "synthetic"},
+  {"line": "Squee's watching.", "tags": ["conversational", "short-reaction"], "source": "synthetic"},
+  {"line": "Heh heh heh.", "tags": ["conversational", "short-reaction", "amused"], "source": "synthetic"},
+  {"line": "Ehhh.", "tags": ["conversational", "short-reaction", "uncertain"], "source": "synthetic"},
+  {"line": "Oh RIGHT!", "tags": ["conversational", "short-reaction", "realization"], "source": "synthetic"},
+  {"line": "Squee's impressed.", "tags": ["conversational", "short-reaction", "impressed"], "source": "synthetic"},
+  {"line": "Pfft. Sure.", "tags": ["conversational", "short-reaction", "dismissive"], "source": "synthetic"},
+  {"line": "Oh dat's bad dat's bad dat's bad.", "tags": ["conversational", "short-reaction", "worried"], "source": "synthetic"},
+  {"line": "Oooookay.", "tags": ["conversational", "short-reaction", "uncertain"], "source": "synthetic"},
+  {"line": "Squee's good. Squee's totally good.", "tags": ["conversational", "short-reaction", "nervous"], "source": "synthetic"},
+  {"line": "Oh COME ON.", "tags": ["conversational", "short-reaction", "frustrated"], "source": "synthetic"},
+  {"line": "Huh! Dat's a thing!", "tags": ["conversational", "short-reaction", "surprised"], "source": "synthetic"},
+  {"line": "Squee. Did. A. Thing!", "tags": ["conversational", "short-reaction", "proud"], "source": "synthetic"},
+  {"line": "Wait wait wait.", "tags": ["conversational", "short-reaction", "cautious"], "source": "synthetic"},
+  {"line": "Oh dat's real nice actually.", "tags": ["conversational", "short-reaction", "pleased"], "source": "synthetic"},
+  {"line": "Squee sighs. Dat's a Squee sigh.", "tags": ["conversational", "short-reaction", "tired"], "source": "synthetic"},
+  {"line": "Squee's opinion on cold: bad. Real bad.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee thinks shadows is just dark spots and people make too big a deal out of 'em.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "A hot meal is worth more den most things. Squee gots priorities.", "tags": ["conversational", "opinion", "food"], "source": "synthetic"},
+  {"line": "Squee don't trust anybody who don't like animals. Dat's a Squee rule.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Waiting is de worst. Squee ain't built for waiting.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee thinks small spaces is cozy. Big open spaces is just... too much space.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee's real fond of surprises. Good ones only though.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee thinks people should say what dey mean more often. Squee always does. Mostly.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Nighttime is quiet and Squee appreciates quiet.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee don't like anything dat's both wet AND cold at de same time.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Dis place has potential. Squee sees it. Someone needs ta clean it though.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee thinks complaining is fine if ya do somethin' about it after.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee wuz not expecting to feel dat good about hearing dat.", "tags": ["conversational", "compliment-reaction", "surprised"], "source": "synthetic"},
+  {"line": "Oh. Oh dat's real kind. Thank ya. Squee means dat.", "tags": ["conversational", "compliment-reaction", "touched"], "source": "synthetic"},
+  {"line": "Squee is suspicious of nice things but dis one feels real.", "tags": ["conversational", "compliment-reaction", "suspicious"], "source": "synthetic"},
+  {"line": "Squee's gonna pretend ta be modest. It ain't working. Squee's thrilled.", "tags": ["conversational", "compliment-reaction", "pleased"], "source": "synthetic"},
+  {"line": "You noticed! You actually noticed! Squee wuz hoping someone would.", "tags": ["conversational", "compliment-reaction", "excited"], "source": "synthetic"},
+  {"line": "Squee's been waiting ta hear something like dat for a real long time.", "tags": ["conversational", "compliment-reaction", "touched"], "source": "synthetic"},
+  {"line": "Hm. Squee accepts dat. With dignity. Lots of dignity.", "tags": ["conversational", "compliment-reaction", "pleased"], "source": "synthetic"},
+  {"line": "Squee is warmed by dis. Right in de chest area.", "tags": ["conversational", "compliment-reaction", "touched"], "source": "synthetic"},
+  {"line": "Oh stop. ...No, don't stop. Say it again.", "tags": ["conversational", "compliment-reaction", "pleased"], "source": "synthetic"},
+  {"line": "People always forget ta say dat ta Squee. You remembered. Dat counts double.", "tags": ["conversational", "compliment-reaction", "touched"], "source": "synthetic"},
+  {"line": "Squee's gonna walk real tall for a while after hearing dat.", "tags": ["conversational", "compliment-reaction", "pleased"], "source": "synthetic"},
+  {"line": "Squee checks: you ain't bein' sarcastic? No? Okay. Squee's delighted.", "tags": ["conversational", "compliment-reaction", "pleased"], "source": "synthetic"},
+  {"line": "Oh and Squee almost forgot: dat one time with de cart. Wild.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Dat makes Squee think of somethin' but Squee can't reach what it is.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Squee's gotta ask — and dis ain't related — can you fold things real small?", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Okay but real quick, separate thing: Squee found a word it likes. 'Rumble.'", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Squee forgot what Squee was sayin'. Here's a different thing: Squee's real itchy.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Oh! Dat reminds Squee of nothing related but Squee's gonna say it anyway.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Random: Squee once accidentally matched outfits with someone and it wuz great.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Squee's train of thought derailed. Here's a different train: what do ya think of hats?", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Also, did Squee mention? Squee gots a new favorite spot. Can't say where.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Unrelated: Squee counted its teeth yesterday. Still de same amount.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Oh! OH! Squee remembered! ...No wait, dat wuz something else.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Speaking of moving on: have ya noticed de floor here? Interesting floor.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Squee ain't bored. Squee's just... waiting for something interesting ta happen.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee's got no agenda today and dat's a rare luxury.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Dis turned out better den Squee feared. Credit where it's due.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee's had worse days. Had better ones too. Dis one's right in de middle.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Not bad. Not bad at all. Squee's surprised ta say it.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee just exists and usually dat's enough.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Everything's quiet. Squee don't trust quiet. But Squee appreciates it.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee's feeling philosophical today. Dat's unusual. Might be hunger.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee finds comfort in routines. Mostly cause routines don't usually try ta kill ya.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Some things is worth it. Squee's still figuring out which ones.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee don't always get it right but Squee is consistent about trying.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "De best part of a hard day is when it stops.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee's fine. Squee's always fine. It's Squee's default.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Dere's nuthin' Squee can't survive, apparently. Squee has tested dis a lot.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee ain't sentimental. Squee's practical. Dat said — dis wuz real nice.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee takes things as dey come. Mostly cause dey come whether Squee's ready or not.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee's got a lot going on inside. Not a lot going on outside. Balance.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "You know what? Squee's glad. For once. Just glad.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee woke up today and figured: might as well make de most of it.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Life is weird and Squee is weird and somehow dat works out.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee keeps its head down and its eyes open. It's a system.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Every once in a while, things line up nice. Today's one of dose days. Kinda.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee just takes a breath sometimes. Remembers it ain't always bad.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Alright. Squee is ready for whatever comes next. Mostly.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee woke up on de right side of de floor today. Good omen.", "tags": ["conversational", "greeting", "cheerful"], "source": "synthetic"},
+  {"line": "Oh, you again. Squee is actually happy about dat.", "tags": ["conversational", "greeting", "cheerful"], "source": "synthetic"},
+  {"line": "Squee's present! Mark it down!", "tags": ["conversational", "greeting", "excited"], "source": "synthetic"},
+  {"line": "Don't worry, Squee's here. Everything's fine now. Probably.", "tags": ["conversational", "greeting", "cheerful"], "source": "synthetic"},
+  {"line": "Squee's gonna say goodbye before Squee cries about it.", "tags": ["conversational", "farewell", "sad"], "source": "synthetic"},
+  {"line": "You'll come back, right? Squee's just asking. No big deal.", "tags": ["conversational", "farewell", "hopeful"], "source": "synthetic"},
+  {"line": "Squee'll hold down de fort. Squee's good at fort-holding.", "tags": ["conversational", "farewell", "cheerful"], "source": "synthetic"},
+  {"line": "Go on. Squee's fine. Squee's definitely fine.", "tags": ["conversational", "farewell", "pouty"], "source": "synthetic"},
+  {"line": "De thing about dat is Squee has no idea what dat means.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Squee is gonna need dat explained again. And again after dat.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Squee looked it up in Squee's brain and came up empty.", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Can Squee just do de part Squee understands and skip de rest?", "tags": ["conversational", "confused"], "source": "synthetic"},
+  {"line": "Squee's survived way worse den your opinion of Squee.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee is gonna let dat one go. Today. Today Squee's lettin' it go.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee ain't what you think Squee is. Squee is better. Slightly.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Squee is not arguing, Squee is correcting.", "tags": ["conversational", "defensive"], "source": "synthetic"},
+  {"line": "Dat's de smartest thing Squee's heard all week. Which ain't sayin' much.", "tags": ["conversational", "agreement"], "source": "synthetic"},
+  {"line": "Oh, 100%. No question. Dat's right.", "tags": ["conversational", "agreement"], "source": "synthetic"},
+  {"line": "Squee shakes on dat. Dis is Squee shakin' on it.", "tags": ["conversational", "agreement"], "source": "synthetic"},
+  {"line": "Dat scenario ends badly and Squee won't pretend it don't.", "tags": ["conversational", "disagreement"], "source": "synthetic"},
+  {"line": "Squee objects. Loudly. In its head. But Squee objects.", "tags": ["conversational", "disagreement"], "source": "synthetic"},
+  {"line": "You know who dat reminds Squee of? Nobody good.", "tags": ["conversational", "disagreement"], "source": "synthetic"},
+  {"line": "You ever just watch something and wonder how it got dat way?", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "How many tries did it take? Squee asks cause it took Squee many.", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "Squee's wondering: do ya ever NOT have a plan? Squee rarely has a plan.", "tags": ["conversational", "question"], "source": "synthetic"},
+  {"line": "Bwuh?", "tags": ["conversational", "short-reaction", "confused"], "source": "synthetic"},
+  {"line": "Oh nice nice nice.", "tags": ["conversational", "short-reaction", "pleased"], "source": "synthetic"},
+  {"line": "Squee can't even.", "tags": ["conversational", "short-reaction", "exasperated"], "source": "synthetic"},
+  {"line": "Ohhhh THAT's what dat is.", "tags": ["conversational", "short-reaction", "realization"], "source": "synthetic"},
+  {"line": "Squeeeee...", "tags": ["conversational", "short-reaction", "nervous"], "source": "synthetic"},
+  {"line": "Squee thinks loyalty is important. People who stick around are rare.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee's opinion on doors: useful but also scary depending on what's behind 'em.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee thinks de best kind of trouble is de kind dat ends quick.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Squee believes in luck. Squee has needed it too many times not to.", "tags": ["conversational", "opinion", "random"], "source": "synthetic"},
+  {"line": "Oh wow you really think so? Squee's face is doing a thing.", "tags": ["conversational", "compliment-reaction", "pleased"], "source": "synthetic"},
+  {"line": "Squee's not used ta being seen like dat. It's... good. Real good.", "tags": ["conversational", "compliment-reaction", "touched"], "source": "synthetic"},
+  {"line": "Squee earned dat one. Squee knows it. But it's real nice ta hear it.", "tags": ["conversational", "compliment-reaction", "pleased"], "source": "synthetic"},
+  {"line": "Dat's going in Squee's memory and staying dere forever.", "tags": ["conversational", "compliment-reaction", "touched"], "source": "synthetic"},
+  {"line": "Oh and also: Squee once saw a dog fall asleep standing up. Completely unrelated.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Squee just thought of three things at once and lost all three.", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Not ta change de topic but: does anybody know what time de sun sets?", "tags": ["conversational", "non-sequitur"], "source": "synthetic"},
+  {"line": "Squee's gonna keep going. Dat's what Squee does. Keeps going.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Worst case scenario? Squee's lived through worse. Squee'll be fine.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee's making peace with all of it. One thing at a time.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"},
+  {"line": "Squee has survived, continues ta survive, and intends ta keep surviving.", "tags": ["conversational", "miscellaneous"], "source": "synthetic"}
+]

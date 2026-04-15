@@ -22,6 +22,9 @@ export function getGeminiClient(): GoogleGenAI {
   return client;
 }
 
-// Gemini 2.5 Flash — cheapest/fastest current model with 1,500 req/day free tier.
+// Gemini 2.5 Flash Lite — smaller/faster/cheaper than regular Flash.
+// Free tier: ~15 RPM, ~1000 RPD. More forgiving than full Flash during
+// free-tier capacity crunches, and plenty smart for character roleplay
+// where the system prompt does most of the heavy lifting.
 // See https://ai.google.dev/gemini-api/docs/models for the latest list.
-export const GEMINI_MODEL = "gemini-2.5-flash";
+export const GEMINI_MODEL = "gemini-2.5-flash-lite";

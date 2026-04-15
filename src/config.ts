@@ -21,6 +21,7 @@ export const config = {
     .map((s) => s.trim())
     .filter(Boolean),
   logLevel: optional("LOG_LEVEL", "info") as "debug" | "info",
+  dbPath: optional("DB_PATH", "./data/squeebot.db"),
 } as const;
 
 export function isChannelAllowed(channelId: string): boolean {

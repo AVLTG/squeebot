@@ -2,6 +2,7 @@ import { Client, GatewayIntentBits, Partials } from "discord.js";
 import { config } from "./config.js";
 import { logger } from "./utils/logger.js";
 import { registerMessageCreate } from "./events/messageCreate.js";
+import { closeMemory } from "./services/memory.js";
 
 async function main(): Promise<void> {
   const client = new Client({
@@ -27,10 +28,12 @@ async function main(): Promise<void> {
     logger.error("Discord client error:", err);
   });
 
-  // Graceful shutdown — Discord wants a clean disconnect
+  // Graceful shutdown — Discord wants a clean disconnect and SQLite needs
+  // to checkpoint its WAL file to avoid data loss.
   const shutdown = async (signal: string) => {
     logger.info(`Received ${signal}, shutting down...`);
     await client.destroy();
+    closeMemory();
     process.exit(0);
   };
   process.on("SIGINT", () => shutdown("SIGINT"));

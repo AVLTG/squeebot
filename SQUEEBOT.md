@@ -13,13 +13,23 @@ Squee is a cowardly, accident-prone, immortal goblin from the Weatherlight crew.
 
 ---
 
+## Current State (2026-04-17)
+
+- **Phases 1-4 functional** when last run: bot connects, responds in-character via Gemini, per-user memory persists, RAG retrieval over voicelines works.
+- **Currently running on**: Raspberry Pi 4 (4GB RAM, 32GB storage, Debian CLI-only). Runs via `npm run dev` in a terminal — **not yet under systemd**.
+- **Model downgraded** from Gemini Flash to Gemini Flash Lite after hitting rate limit / service issues on the free tier.
+- **Previous deployment target** was Fly.io free tier; pivoted to the Pi because it's already online and under our control.
+- **Node version**: 22 (via nvm, user-space install at `~/.nvm`).
+
+---
+
 ## Architecture
 
 ```
 ┌─────────────────────────────────────────────────┐
-│  Fly.io Free VM (always-on)                     │
+│  Raspberry Pi 4 (4GB, Debian, always-on)        │
 │                                                 │
-│  discord.js bot (TypeScript)                    │
+│  discord.js bot (TypeScript, Node 22 via nvm)   │
 │    ├── Mention listener                         │
 │    ├── Typing indicator manager                 │
 │    ├── Rate limiter (per-user, 5 req/min)       │
@@ -32,7 +42,7 @@ Squee is a cowardly, accident-prone, immortal goblin from the Weatherlight crew.
 │    ├── User memory store (SQLite/JSON)          │
 │    └── Channel context (last 10-15 msgs)        │
 │                                                 │
-│  Gemini Flash API (free tier)                   │
+│  Gemini Flash Lite API (free tier)              │
 │    └── Generates response + memory update       │
 └─────────────────────────────────────────────────┘
 ```
@@ -51,17 +61,17 @@ Squee is a cowardly, accident-prone, immortal goblin from the Weatherlight crew.
 
 | Component | Service | Cost |
 |-----------|---------|------|
-| **Bot process** (always-on WebSocket) | Fly.io free tier (3 free VMs, 256MB RAM each) | $0/mo |
-| **LLM inference** | Google Gemini Flash free tier (1,500 req/day) | $0/mo |
+| **Bot process** (always-on WebSocket) | Self-hosted on Raspberry Pi 4 (home) | $0/mo |
+| **LLM inference** | Google Gemini Flash Lite free tier | $0/mo |
 | **Fine-tuning** (future, optional) | Modal ($30 free credits/month) | $0/mo |
-| **Fallback bot hosting** | Railway (if Fly.io free tier changes) | ~$5/mo |
+| **Fallback bot hosting** | Fly.io free tier or Railway (~$5/mo) | $0-5/mo |
 
-**Expected usage**: ~50-100 requests/day, well within all free tiers.
+**Expected usage**: ~50-100 requests/day, well within free tiers.
 
 ### Why These Choices
 
-- **Fly.io** over Oracle Cloud: simpler DX, good free tier, easy deploys.
-- **Gemini Flash** over other APIs: most generous free tier (1,500 req/day), high quality for character roleplay, free.
+- **Raspberry Pi** over cloud: already owned, already always-on, no free-tier rules to comply with, teaches real systemd deployment. Tradeoff: depends on home internet, no redundancy.
+- **Gemini Flash Lite** over Flash: Flash's free tier was too aggressive on rate limits for our usage pattern. Lite is slightly dumber but stays within limits.
 - **Modal** reserved for future fine-tuning experiments only (serverless GPU, not suited for persistent bot hosting).
 - Discord bots require a persistent WebSocket connection, ruling out pure serverless (Vercel Functions, Lambda, etc.).
 
@@ -69,12 +79,12 @@ Squee is a cowardly, accident-prone, immortal goblin from the Weatherlight crew.
 
 ## Tech Stack
 
-- **Runtime**: Node.js (TypeScript)
-- **Discord library**: discord.js v14+
-- **LLM API**: Google Gemini Flash (via `@google/generative-ai` SDK)
-- **Data storage**: JSON files (sufficient for 20 users), upgrade to SQLite/Turso if needed
-- **Hosting**: Fly.io (Dockerfile deploy)
-- **Process manager**: Fly.io handles restarts natively
+- **Runtime**: Node.js 22 (TypeScript), installed via nvm
+- **Discord library**: discord.js v14
+- **LLM API**: Google Gemini Flash Lite (via `@google/genai` SDK)
+- **Data storage**: JSON files + `better-sqlite3` dep installed (has ARM64 prebuilds)
+- **Hosting**: Raspberry Pi 4 at home
+- **Process manager**: systemd with `Restart=on-failure` (pending — see Next Steps)
 
 ---
 
@@ -221,24 +231,24 @@ Final `squee-voicelines.json` with tags for retrieval matching.
 
 ## Build Phases
 
-### Phase 1 - Scaffold
+### Phase 1 - Scaffold ✅
 - Initialize TypeScript project with discord.js
 - Basic bot that connects to Discord and detects @mentions
 - Responds with a hardcoded Squee quote
-- Deploy to Fly.io
+- ~~Deploy to Fly.io~~ → Running on Raspberry Pi via `npm run dev`
 
-### Phase 2 - Squee Brain
+### Phase 2 - Squee Brain ✅
 - Write the Squee system prompt (personality, rules, tone)
-- Integrate Gemini Flash API
+- Integrate Gemini Flash Lite API
 - Bot generates dynamic in-character responses
 - Handle typing indicators during generation
 
-### Phase 3 - Memory
+### Phase 3 - Memory ✅
 - Implement per-user goblin notes (JSON storage)
 - Structured output parsing (reply + memory update)
 - Memory included in prompt context on each interaction
 
-### Phase 4 - RAG
+### Phase 4 - RAG ✅
 - Implement voice line retrieval (keyword/tag matching or simple embedding search)
 - Include 3-5 relevant voice lines in each prompt as examples
 - Test that responses are more grounded in Squee's authentic voice
@@ -266,14 +276,14 @@ Final `squee-voicelines.json` with tags for retrieval matching.
 
 | Item | One-Time | Monthly |
 |------|----------|---------|
-| Bot hosting (Fly.io free) | $0 | $0 |
-| LLM inference (Gemini Flash free) | $0 | $0 |
+| Bot hosting (Pi, already owned) | $0 | ~$0 (electricity negligible) |
+| LLM inference (Gemini Flash Lite free) | $0 | $0 |
 | Dataset generation (Opus API) | $5-20 | $0 |
 | Fine-tuning (optional, Modal) | $5-20 | $0 |
 | **Total (without fine-tuning)** | **$5-20** | **$0** |
 | **Total (with fine-tuning)** | **$10-40** | **$0** |
 
-Fallback if free tiers change: Railway ($5/mo) + Gemini Flash paid tier (pennies at this volume) = ~$5-7/mo worst case.
+Fallback if Pi dies or home internet flakes out for extended periods: redeploy to Fly.io free tier (original plan) or Railway (~$5/mo).
 
 ---
 
@@ -284,3 +294,58 @@ Fallback if free tiers change: Railway ($5/mo) + Gemini Flash paid tier (pennies
 - **Rate limits**: discord.js handles Discord API limits internally; bot-level per-user limiting is custom
 - **Message limit**: 2000 characters per message - split longer responses
 - **Bot vs bot**: Always check `message.author.bot` to avoid infinite loops
+
+---
+
+## Pi Deployment Notes
+
+### Paths on the Pi
+- Repo: `~/coding/squeebot`
+- Node: `~/.nvm/versions/node/v22.*/bin/node` (resolved via nvm)
+- Env file: `~/coding/squeebot/.env` (not in git — populated manually, contains Discord token + Gemini key)
+
+### How to run (current, manual)
+```bash
+cd ~/coding/squeebot
+npm run dev            # tsx watch src/index.ts — auto-reloads on file changes
+```
+Ctrl+C to stop. Dies with the terminal.
+
+### Re-fetching env values
+- **DISCORD_TOKEN**: Discord Developer Portal → your app → Bot tab → Reset Token (can't be viewed, only reset)
+- **DISCORD_CLIENT_ID**: same app → General Information → Application ID (viewable)
+- **GEMINI_API_KEY**: https://aistudio.google.com/apikey (viewable any time)
+
+### Related systemd services on this Pi
+- `tmodloader.service` — Terraria modded server. Uses a FIFO at `/run/tmodloader/input` for runtime command injection (see `~/tmodloader/` and the `tmod-*` aliases in `.bashrc`). Squeebot → Terraria bridge will write to this FIFO.
+
+---
+
+## Next Steps / TODO
+
+Roughly ordered by priority:
+
+1. **systemd unit for squeebot**
+   - Model after `tmodloader.service`: `User=aatol`, `WorkingDirectory=~/coding/squeebot`, `Restart=on-failure`, `EnvironmentFile=~/coding/squeebot/.env` so the token stays out of the unit file
+   - Use `npm run start` (compiled) not `npm run dev` (tsx watch) — compile via `npm run build` first
+   - Node binary path: use the absolute path from `nvm which 22` since systemd doesn't source `.bashrc`
+
+2. **Terraria bridge command** (pending scope decision from user)
+   - Minimum: a `/tmod-say <msg>` slash command that writes to `/run/tmodloader/input`
+   - Open questions: role-gated or open? `say`-only or full console passthrough (`save`, `kick`, etc.)?
+   - Since squeebot runs as `aatol` and the FIFO is mode 0660 owned by `aatol:aatol`, no sudo or extra setup needed — just `fs.writeFileSync`.
+
+3. **Graceful Gemini rate-limit handling**
+   - Currently: probably throws/logs and the bot silently fails a reply
+   - Want: catch 429s, reply in-character with a "Squee tired" fallback from voicelines
+
+4. **Log rotation**
+   - Once under systemd, use `journalctl` + default rotation, or pipe to a rotating file
+
+5. **Phase 5 - Dataset generation** (future)
+   - Scrape authentic Squee material, run the Opus synthetic pipeline
+   - Current RAG is grounded on the smaller voicelines/*.json set
+
+6. **Phase 7 - Fine-tune experiment** (future, optional)
+   - User is AI-focused CS major, has preference for training over local small models
+   - Would want cloud GPU (Modal / Together / Lambda Labs) not on-Pi

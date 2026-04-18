@@ -3,6 +3,7 @@ import { config } from "./config.js";
 import { logger } from "./utils/logger.js";
 import { registerMessageCreate } from "./events/messageCreate.js";
 import { closeMemory } from "./services/memory.js";
+import { initRAG } from "./services/rag.js";
 
 async function main(): Promise<void> {
   const client = new Client({
@@ -38,6 +39,16 @@ async function main(): Promise<void> {
   };
   process.on("SIGINT", () => shutdown("SIGINT"));
   process.on("SIGTERM", () => shutdown("SIGTERM"));
+
+  // Warm up RAG (loads embedding model + voiceline vectors) before the first
+  // user message so we don't pay cold-start latency on request #1. If the
+  // voicelines table is empty, this still succeeds — retrieval just returns
+  // an empty list and Squee runs without RAG grounding.
+  try {
+    await initRAG();
+  } catch (err) {
+    logger.error("Failed to initialize RAG — Squee will run without voiceline grounding:", err);
+  }
 
   await client.login(config.discordToken);
 }

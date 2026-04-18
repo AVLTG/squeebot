@@ -8,14 +8,17 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "ingest": "tsx src/scripts/ingest-voicelines.ts"
   },
   "dependencies": {
     "@google/genai": "^1.50.0",
     "@types/better-sqlite3": "^7.6.13",
+    "@xenova/transformers": "^2.17.2",
     "better-sqlite3": "^12.9.0",
     "discord.js": "^14.16.3",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^1.1.2"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

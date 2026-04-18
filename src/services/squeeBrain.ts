@@ -1,47 +1,33 @@
 /**
  * The Squee Brain — generates in-character responses.
  *
- * Phase 3: calls Gemini Flash with structured JSON output containing both
- * the reply and an updated per-user "goblin note". Reads existing memory
- * before each call, saves the updated memory after.
+ * Calls the configured LLM provider (Groq or Gemini, see llm.ts) with
+ * structured JSON output containing both the reply and an updated per-user
+ * "goblin note". Reads existing memory before each call, saves the updated
+ * memory after.
  *
- * Errors from Gemini are surfaced as in-character fallback quotes that hint
- * at what went wrong (rate limit, server down, bad request, network, etc.)
- * so users know Squee is temporarily broken without seeing stack traces.
+ * Errors from the provider are surfaced as in-character fallback quotes that
+ * hint at what went wrong (rate limit, server down, bad request, network,
+ * etc.) so users know Squee is temporarily broken without seeing stack traces.
  *
- * Phase 4 will add RAG-retrieved voice lines.
+ * Phase 4 (RAG): top-k voicelines are retrieved per message via cosine
+ * similarity over local sentence embeddings (see rag.ts) and injected into
+ * the prompt as style examples.
  */
 
-import { Type } from "@google/genai";
-import { getGeminiClient, GEMINI_MODEL } from "./gemini.js";
+import { callLLM } from "./llm.js";
 import { SQUEE_SYSTEM_PROMPT } from "./prompt.js";
 import { getMemory, setMemory } from "./memory.js";
+import { retrieveVoicelines } from "./rag.js";
 import { logger } from "../utils/logger.js";
+
+const RAG_TOP_K = 5;
 
 export interface BrainContext {
   userId: string;
   userName: string;
   userMessage: string;
 }
-
-// JSON schema Gemini is instructed to follow. Both fields required so the
-// model doesn't skip one (we can discard empty memory downstream).
-const RESPONSE_SCHEMA = {
-  type: Type.OBJECT,
-  properties: {
-    reply: {
-      type: Type.STRING,
-      description: "What Squee says to the user (1-3 sentences, max 500 chars).",
-    },
-    memory: {
-      type: Type.STRING,
-      description:
-        "Squee's updated goblin note about this user, in Squee's voice (1-2 sentences). The user never sees this.",
-    },
-  },
-  required: ["reply", "memory"],
-  propertyOrdering: ["reply", "memory"],
-} as const;
 
 // In-character fallback quotes, keyed by error category.
 // Each category has multiple options so repeat failures don't show the same line.
@@ -95,29 +81,30 @@ export async function generateReply(ctx: BrainContext): Promise<string> {
       ? `Squee's existing goblin note on ${ctx.userName}: "${existing.note}"`
       : `No existing note — this is the first time Squee talks to ${ctx.userName}.`;
 
-    const userTurn = [
-      memoryBlock,
-      "",
-      `${ctx.userName} says to Squee: ${ctx.userMessage}`,
-    ].join("\n");
+    // RAG: retrieve top-k voicelines most similar to the user's message
+    const examples = await retrieveVoicelines(ctx.userMessage, RAG_TOP_K);
+    const exampleBlock =
+      examples.length > 0
+        ? [
+            "Voice reference — how Squee has talked before (match this style, do NOT copy these lines verbatim):",
+            ...examples.map((line, i) => `${i + 1}. "${line}"`),
+          ].join("\n")
+        : "";
 
-    const client = getGeminiClient();
-    const response = await client.models.generateContent({
-      model: GEMINI_MODEL,
-      contents: [{ role: "user", parts: [{ text: userTurn }] }],
-      config: {
-        systemInstruction: SQUEE_SYSTEM_PROMPT,
-        temperature: 1.0,
-        maxOutputTokens: 400,
-        thinkingConfig: { thinkingBudget: 0 },
-        responseMimeType: "application/json",
-        responseSchema: RESPONSE_SCHEMA,
-      },
-    });
+    const parts: string[] = [];
+    if (exampleBlock) parts.push(exampleBlock, "");
+    parts.push(memoryBlock, "", `${ctx.userName} says to Squee: ${ctx.userMessage}`);
+    const userTurn = parts.join("\n");
 
-    const raw = response.text?.trim();
+    const raw = (await callLLM({
+      systemPrompt: SQUEE_SYSTEM_PROMPT,
+      userTurn,
+      temperature: 1.0,
+      maxOutputTokens: 400,
+    }))?.trim();
+
     if (!raw) {
-      logger.warn("Gemini returned empty response, using fallback");
+      logger.warn("LLM returned empty response, using fallback");
       return pickFallback("emptyResponse");
     }
 
@@ -141,7 +128,7 @@ export async function generateReply(ctx: BrainContext): Promise<string> {
     return parsed.reply;
   } catch (err) {
     const category = classifyError(err);
-    logger.error(`Gemini call failed (${category}):`, err);
+    logger.error(`LLM call failed (${category}):`, err);
     return pickFallback(category);
   }
 }

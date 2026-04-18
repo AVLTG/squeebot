@@ -12,10 +12,19 @@ function optional(name: string, fallback = ""): string {
   return process.env[name] ?? fallback;
 }
 
+const llmProvider = optional("LLM_PROVIDER", "groq").toLowerCase();
+if (llmProvider !== "groq" && llmProvider !== "gemini") {
+  throw new Error(
+    `Invalid LLM_PROVIDER "${llmProvider}". Must be "groq" or "gemini".`
+  );
+}
+
 export const config = {
   discordToken: required("DISCORD_TOKEN"),
   discordClientId: required("DISCORD_CLIENT_ID"),
   geminiApiKey: optional("GEMINI_API_KEY"),
+  groqApiKey: optional("GROQ_API_KEY"),
+  llmProvider: llmProvider as "groq" | "gemini",
   allowedChannelIds: optional("ALLOWED_CHANNEL_IDS")
     .split(",")
     .map((s) => s.trim())

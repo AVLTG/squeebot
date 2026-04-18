@@ -15,36 +15,42 @@ Squee is a cowardly, accident-prone, immortal goblin from the Weatherlight crew.
 
 ## Current State (2026-04-17)
 
-- **Phases 1-4 functional** when last run: bot connects, responds in-character via Gemini, per-user memory persists, RAG retrieval over voicelines works.
-- **Currently running on**: Raspberry Pi 4 (4GB RAM, 32GB storage, Debian CLI-only). Runs via `npm run dev` in a terminal — **not yet under systemd**.
-- **Model downgraded** from Gemini Flash to Gemini Flash Lite after hitting rate limit / service issues on the free tier.
-- **Previous deployment target** was Fly.io free tier; pivoted to the Pi because it's already online and under our control.
-- **Node version**: 22 (via nvm, user-space install at `~/.nvm`).
+- **Phases 1-3 functional**: bot connects, responds in-character, per-user memory persists.
+- **Phase 4 (RAG) implemented**: local embedding-based retrieval over ~10k voicelines using Xenova/all-MiniLM-L6-v2. Requires a one-time ingestion step (`npm run ingest`) to populate the `voicelines` SQLite table.
+- **Running under systemd** as `squeebot.service` on the Raspberry Pi 4 (4GB RAM, 32GB storage, Debian CLI-only). Auto-restart on crash. Manage via `squee-*` bash aliases.
+- **LLM provider**: Groq with `llama-3.3-70b-versatile` (primary). Gemini Flash Lite is kept as a fallback, switchable via `LLM_PROVIDER` env var. Provider dispatch lives in `src/services/llm.ts`.
+- **Why Groq over Gemini**: Gemini Flash Lite free tier dropped to 20 RPD in April 2026. Groq's free tier is ~1k RPD on 70B and inference is ~5-10× faster.
+- **Node version**: 24 (via nvm, user-space install at `~/.nvm`).
 
 ---
 
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────┐
-│  Raspberry Pi 4 (4GB, Debian, always-on)        │
-│                                                 │
-│  discord.js bot (TypeScript, Node 22 via nvm)   │
-│    ├── Mention listener                         │
-│    ├── Typing indicator manager                 │
-│    ├── Rate limiter (per-user, 5 req/min)       │
-│    └── Response splitter (2000 char limit)      │
-│                                                 │
-│  Squee Brain                                    │
-│    ├── System prompt (personality + rules)      │
-│    ├── RAG: voice line retrieval (keyword/      │
-│    │   embedding search over 10k lines)         │
-│    ├── User memory store (SQLite/JSON)          │
-│    └── Channel context (last 10-15 msgs)        │
-│                                                 │
-│  Gemini Flash Lite API (free tier)              │
-│    └── Generates response + memory update       │
-└─────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────┐
+│  Raspberry Pi 4 (4GB, Debian, always-on)             │
+│                                                      │
+│  discord.js bot (TypeScript, Node 24 via nvm)        │
+│    ├── Mention listener                              │
+│    ├── Typing indicator manager                      │
+│    ├── Rate limiter (per-user, 5 req/min)            │
+│    └── Response splitter (2000 char limit)           │
+│                                                      │
+│  Squee Brain                                         │
+│    ├── System prompt (personality + rules)           │
+│    ├── RAG: top-5 voice line retrieval via local     │
+│    │   sentence embeddings (see below)               │
+│    ├── User memory store (SQLite, goblin notes)      │
+│    └── Channel context (last 10-15 msgs)             │
+│                                                      │
+│  LLM dispatch (src/services/llm.ts)                  │
+│    ├── Groq  (primary)  — llama-3.3-70b-versatile    │
+│    └── Gemini (fallback) — gemini-2.5-flash-lite     │
+│                                                      │
+│  Embedding stack (local, on-device)                  │
+│    ├── Xenova/all-MiniLM-L6-v2 (384-dim, ONNX)       │
+│    └── Vectors cached in SQLite voicelines table     │
+└──────────────────────────────────────────────────────┘
 ```
 
 ### Data Files (bundled with bot)
@@ -249,9 +255,11 @@ Final `squee-voicelines.json` with tags for retrieval matching.
 - Memory included in prompt context on each interaction
 
 ### Phase 4 - RAG ✅
-- Implement voice line retrieval (keyword/tag matching or simple embedding search)
-- Include 3-5 relevant voice lines in each prompt as examples
-- Test that responses are more grounded in Squee's authentic voice
+- Implement voice line retrieval via local sentence embeddings (Xenova/all-MiniLM-L6-v2)
+- One-time ingestion: `npm run ingest` embeds every voiceline and stores the 384-dim vector as a BLOB in the `voicelines` SQLite table (same DB as user memory)
+- On startup, all ~10k vectors + metadata are loaded into memory (~15MB)
+- Per request: embed user's message, brute-force cosine similarity scan, top-5 most similar lines injected as style examples into the user turn
+- Graceful degradation: if voicelines table is empty, Squee still replies — just without RAG grounding
 
 ### Phase 5 - Dataset Generation
 - Extract authentic Squee material from novels/Scryfall/wiki
@@ -323,29 +331,33 @@ Ctrl+C to stop. Dies with the terminal.
 
 ## Next Steps / TODO
 
-Roughly ordered by priority:
+### Done
+- ✅ systemd unit (`squeebot.service`) with `Restart=on-failure`, `EnvironmentFile=.env`, runs compiled `dist/index.js`
+- ✅ `squee-*` bash aliases (status/start/stop/restart/journal/errors/build/deploy/memory/memory-user/memory-forget/help)
+- ✅ Groq provider added; provider dispatch via `LLM_PROVIDER` env var
+- ✅ RAG (Phase 4) — local sentence-embedding retrieval over voicelines
 
-1. **systemd unit for squeebot**
-   - Model after `tmodloader.service`: `User=aatol`, `WorkingDirectory=~/coding/squeebot`, `Restart=on-failure`, `EnvironmentFile=~/coding/squeebot/.env` so the token stays out of the unit file
-   - Use `npm run start` (compiled) not `npm run dev` (tsx watch) — compile via `npm run build` first
-   - Node binary path: use the absolute path from `nvm which 22` since systemd doesn't source `.bashrc`
+### Active TODO (roughly ordered)
 
-2. **Terraria bridge command** (pending scope decision from user)
+1. **Terraria bridge command** (pending scope decision from user)
    - Minimum: a `/tmod-say <msg>` slash command that writes to `/run/tmodloader/input`
    - Open questions: role-gated or open? `say`-only or full console passthrough (`save`, `kick`, etc.)?
    - Since squeebot runs as `aatol` and the FIFO is mode 0660 owned by `aatol:aatol`, no sudo or extra setup needed — just `fs.writeFileSync`.
 
-3. **Graceful Gemini rate-limit handling**
-   - Currently: probably throws/logs and the bot silently fails a reply
-   - Want: catch 429s, reply in-character with a "Squee tired" fallback from voicelines
+2. **Phase 5 - Dataset expansion** (future)
+   - Scrape authentic Squee material (Scryfall flavor text, Weatherlight novels, MTG wiki)
+   - Run the Opus synthetic pipeline to supplement the current ~10k lines
+   - Re-run `npm run ingest` to rebuild embeddings
 
-4. **Log rotation**
-   - Once under systemd, use `journalctl` + default rotation, or pipe to a rotating file
+3. **Phase 7 - Fine-tune experiment** (future)
+   - User is AI-focused CS major, prefers training/fine-tuning over running small local models
+   - Would use cloud GPU (Modal / Together / Lambda Labs), not on-Pi
+   - Candidate base models: Llama 3.1 8B, Qwen 2.5 7B — small enough to self-host after fine-tune
 
-5. **Phase 5 - Dataset generation** (future)
-   - Scrape authentic Squee material, run the Opus synthetic pipeline
-   - Current RAG is grounded on the smaller voicelines/*.json set
+### Deferred
 
-6. **Phase 7 - Fine-tune experiment** (future, optional)
-   - User is AI-focused CS major, has preference for training over local small models
-   - Would want cloud GPU (Modal / Together / Lambda Labs) not on-Pi
+- **LLM provider fallback cascade on 429** — Primary `llama-3.3-70b-versatile` → on 429 flip to `openai/gpt-oss-120b` → on *its* 429 flip to Gemini. Self-healing via a tiny state file (`data/provider-state.json` with `{model, date}`); date check at call-time auto-clears stale state. Currently a non-issue — observed usage is pennies/day, nowhere near Groq's 1k RPD free-tier limit. Revisit if we actually start hitting 429s.
+
+- **Log rotation** — journald default rotation is fine for now. Revisit if disk fills or we want longer retention.
+
+- **Graceful in-character rate-limit replies** — already implemented via the `FALLBACKS.rateLimit` map in `squeeBrain.ts`; revisit only if we observe failures slipping through.

@@ -29,3 +29,6 @@ Thumbs.db
 .idea/
 *.swp
 squee-master-reference.md
+
+# Phase 7 fine-tune iteration log (local-only, not for project history)
+PROCESS.md

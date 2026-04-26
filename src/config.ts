@@ -12,10 +12,17 @@ function optional(name: string, fallback = ""): string {
   return process.env[name] ?? fallback;
 }
 
-const llmProvider = optional("LLM_PROVIDER", "groq").toLowerCase();
-if (llmProvider !== "groq" && llmProvider !== "gemini") {
+// "cascade" (default) tries Groq → Gemini → Modal, advancing on 429 only.
+// Setting an explicit provider pins to that one with no fallback (useful for testing).
+const llmProvider = optional("LLM_PROVIDER", "cascade").toLowerCase();
+if (
+  llmProvider !== "groq" &&
+  llmProvider !== "gemini" &&
+  llmProvider !== "modal" &&
+  llmProvider !== "cascade"
+) {
   throw new Error(
-    `Invalid LLM_PROVIDER "${llmProvider}". Must be "groq" or "gemini".`
+    `Invalid LLM_PROVIDER "${llmProvider}". Must be "groq", "gemini", "modal", or "cascade".`
   );
 }
 
@@ -24,7 +31,9 @@ export const config = {
   discordClientId: required("DISCORD_CLIENT_ID"),
   geminiApiKey: optional("GEMINI_API_KEY"),
   groqApiKey: optional("GROQ_API_KEY"),
-  llmProvider: llmProvider as "groq" | "gemini",
+  modalVllmUrl: optional("MODAL_VLLM_URL"),
+  modalVllmKey: optional("SQUEE_VLLM_KEY"),
+  llmProvider: llmProvider as "groq" | "gemini" | "modal" | "cascade",
   allowedChannelIds: optional("ALLOWED_CHANNEL_IDS")
     .split(",")
     .map((s) => s.trim())

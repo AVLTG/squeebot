@@ -18,7 +18,7 @@ Squee is a cowardly, accident-prone, immortal goblin from the Weatherlight crew.
 - **Phases 1-4 functional (code-wise)**: bot connects, responds in-character, per-user memory persists, RAG retrieval over ~10k voicelines via Xenova/all-MiniLM-L6-v2.
 - **⚠️ Pi is down**: both squeebot and the Terraria server went offline with it. Bot is not currently running anywhere. Finding a new 24/7 host is the immediate blocker (see Next Steps).
 - **Dataset work complete**: authentic Squee material fully scraped (previously in `squee-master-reference.md`, since scrubbed from git for copyright). 9,996 synthetic training pairs generated — each with (user input → Squee response + tags) — ready to use as LoRA fine-tune data.
-- **LLM provider (pre-Pi-outage)**: Groq with `llama-3.3-70b-versatile` (primary), Gemini Flash Lite as fallback, switchable via `LLM_PROVIDER` env var. Provider dispatch in `src/services/llm.ts`. Plan going forward is to replace this with our own fine-tuned model hosted on Modal.
+- **LLM provider (current)**: Cascade dispatch (default `LLM_PROVIDER=cascade`) tries Groq `llama-3.3-70b-versatile` → Gemini Flash Lite → Modal-hosted fine-tune, advancing on 429 only. In practice Groq handles ~all traffic at our volume (well under 1k RPD limit). The fine-tune's role is backstop only — see Phase 7 status below for why it didn't take the primary slot.
 - **Why Groq over Gemini**: Gemini Flash Lite free tier dropped to 20 RPD in April 2026. Groq's free tier is ~1k RPD on 70B and inference is ~5-10× faster.
 - **Node version**: 24 (via nvm).
 
@@ -272,9 +272,11 @@ Final `squee-voicelines.json` with tags for retrieval matching.
 - Error handling and graceful reconnection
 - In-character fallback messages (see `FALLBACKS` in `squeeBrain.ts`)
 
-### Phase 7 - Fine-Tune on Modal (**ACTIVE**)
+### Phase 7 - Fine-Tune on Modal (✅ deployed as cascade fallback)
 
 **Locked stack**: Llama 3.1 8B Instruct → Unsloth QLoRA → merge → AWQ 4-bit → vLLM on Modal.
+
+**Final outcome**: pipeline works end-to-end and is live, but day-to-day traffic flows to Groq via the cascade because the 8B fine-tune produces noticeably worse responses than Groq's 70B in the production prompt format. The fine-tune now serves as the bottom of the cascade (used only if Groq AND Gemini both 429). See `PROCESS.md` Finding B for the postmortem on why production quality diverged from `test_with_rag.py` quality.
 
 - **Base model in practice**: `unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit` (Unsloth's pre-quantized 4-bit rehost of `meta-llama/Llama-3.1-8B-Instruct` — saves the on-load quantization step, no Meta gating).
   - Chosen over Gemma 4 E4B and Llama 3.2 3B for a mix of reasons: most mature Unsloth + vLLM + AWQ tooling path, strongest resume signal (vLLM is the production-ML-infra standard), quality headroom vs 3B for a persona task.
@@ -404,18 +406,19 @@ The bot ran on a Raspberry Pi 4 at home under `squeebot.service` (systemd, `Rest
 
 ### Active TODO (roughly ordered)
 
-1. **Phase 7 — Llama 3.1 8B LoRA fine-tune on Modal** (**current focus**)
+1. **Phase 7 — Llama 3.1 8B LoRA fine-tune on Modal** (✅ deployed, demoted to fallback)
    - ✅ Modal account + CLI auth (`modal token new`)
-   - ✅ Data prep — `fine-tune/prepare_data.py` consolidates `training-pairs/*.json` into 9,497 train / 499 eval JSONL with Llama 3.1 chat template
-   - ✅ Smoke test passed (10 steps, ~$0.10) — pipeline verified end-to-end
-   - ✅ Full 3-epoch training run completed — actual spend ~$10.40 (one timed-out attempt + one resumed run). Adapter at Modal Volume `squee-lora-checkpoints:/full/squee-lora/`. Final avg train loss 0.037.
-   - ✅ Bare qualitative test (`fine-tune/test.py`, 10 prompts, ~$0.10) — **finding: voice/dialect learned cleanly, persona depth (panic, fear, "dumb goblin" energy) underlearned, prompt-injection resistance failed**. See `PROCESS.md` for details.
-   - ⏳ RAG-augmented qualitative test (`fine-tune/test_with_rag.py`) — testing whether per-query voiceline injection recovers the missing emotional/topical register. Decides whether to ship or re-train.
-   - **Next (if RAG test passes)**: merge LoRA into base weights → `fine-tune/merge.py`
-   - **Next**: AWQ 4-bit quantize → `fine-tune/quantize.py`
-   - **Next**: vLLM serving Modal app → `fine-tune/serve.py`
-   - **Next**: `modal` provider in `src/services/llm.ts`; wire `LLM_PROVIDER=modal`; keep Groq as fallback
-   - **Acceptance gate**: qualitative side-by-side sample outputs vs Groq + RAG baseline before flipping the bot over
+   - ✅ Data prep — `fine-tune/prepare_data.py` (9,497 train / 499 eval JSONL with Llama 3.1 chat template)
+   - ✅ Full 3-epoch training run (~$10.40 actual). Adapter at Modal Volume `squee-lora-checkpoints:/full/squee-lora/`.
+   - ✅ Bare qualitative test (`fine-tune/test.py`) — voice surface learned, persona depth missed
+   - ✅ RAG-augmented qualitative test (`fine-tune/test_with_rag.py`) — decent improvement, "good enough to commit"
+   - ✅ Merge LoRA → fp16 (`fine-tune/merge.py`, ~$1, A100 40GB). Output at `/full/squee-merged-16bit/`.
+   - ✅ AWQ 4-bit quantize (`fine-tune/quantize.py`, ~$1.85, A100 40GB). Output at `/full/squee-awq-4bit/` (~5.4 GB).
+   - ✅ vLLM serving Modal app (`fine-tune/serve.py`) — deployed at `https://avltg--squee-vllm-serve.modal.run`. Scale-to-zero, 5-min idle window.
+   - ✅ Bot integration (`src/services/modal.ts`, `src/services/llm.ts`) — modal provider calls vLLM for reply + Groq for memory in parallel.
+   - ✅ **Cascade dispatch implemented** (was deferred backlog): default `LLM_PROVIDER=cascade` tries Groq → Gemini → Modal, advancing on 429 only.
+   - ⚠️ **Production quality issue**: in live testing, the fine-tune produced off-topic nonsense ("Cloudy with a chance of death" in response to "KILL FRANCISCO"). Root cause: production prompt format (RAG block + memory block + `<userName> says to Squee:` framing) diverges sharply from the bare `{user, assistant}` training format. See `PROCESS.md` Finding B.
+   - **Decision**: Modal stays in the cascade as a fallback (better than nothing if Groq + Gemini both 429). Day-to-day traffic flows to Groq's 70B which is markedly better at this task. Total Phase 7 spend ~$13.50.
 
 2. **24/7 host for the bot process** (blocking — bot is offline until this is decided)
    - Pi is down, both squeebot and the Terraria server with it
@@ -435,7 +438,7 @@ The bot ran on a Raspberry Pi 4 at home under `squeebot.service` (systemd, `Rest
   - Not needed at our scale (short contexts, ~50-100 req/day), but would be a great hands-on research-implementation project to tackle on top of our deployed Llama 3.1 8B. Good resume signal.
   - Revisit after Phase 7 is shipped and stable.
 
-- **LLM provider fallback cascade on 429** — Primary → on 429 flip to secondary → on *its* 429 flip to Gemini. Self-healing via a tiny state file (`data/provider-state.json` with `{model, date}`). Currently a non-issue at our usage volume. Revisit if we start hitting 429s.
+- ~~**LLM provider fallback cascade on 429**~~ — ✅ Done. Implemented in `src/services/llm.ts` as `LLM_PROVIDER=cascade` (default). Tries Groq → Gemini → Modal in order, advancing only on 429. Other errors surface immediately.
 
 - **Log rotation** — journald default rotation is fine. Revisit if disk fills or we want longer retention.
 

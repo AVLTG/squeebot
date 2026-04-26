@@ -100,7 +100,10 @@ export async function generateReply(ctx: BrainContext): Promise<string> {
       systemPrompt: SQUEE_SYSTEM_PROMPT,
       userTurn,
       temperature: 1.0,
-      maxOutputTokens: 400,
+      // Squee responses cap at "1-3 sentences, max 500 chars" (~125 tokens).
+      // 200 leaves room for JSON overhead (Groq/Gemini) or memory field, while
+      // staying under vLLM's 2048-token model length budget after RAG inflation.
+      maxOutputTokens: 200,
     }))?.trim();
 
     if (!raw) {
